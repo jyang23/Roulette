@@ -58,6 +58,7 @@ public class Main {
             {
                 System.out.println("Congratulations, you've won.");
                 total += player.getAmount()*2;
+                System.out.println();
                 System.out.println("You currently have: $"+total);
                 games_won++;
             }
@@ -65,6 +66,7 @@ public class Main {
             {
                 System.out.println("Congratulations, you've won.");
                 total += player.getAmount()*2;
+                System.out.println();
                 System.out.println("You currently have: $"+total);
                 games_won++;
             }
@@ -72,6 +74,7 @@ public class Main {
             {
                 System.out.println("Congratulations, you've won.");
                 total += player.getAmount()*2;
+                System.out.println();
                 System.out.println("You currently have: $"+total);
                 games_won++;
             }
@@ -79,6 +82,7 @@ public class Main {
             {
                 System.out.println("Congratulations, you've won.");
                 total += player.getAmount()*2;
+                System.out.println();
                 System.out.println("You currently have: $"+total);
                 games_won++;
             }
@@ -86,6 +90,7 @@ public class Main {
             {
                 System.out.println("Congratulations, you've won.");
                 total += player.getAmount()*2;
+                System.out.println();
                 System.out.println("You currently have: $"+total);
                 games_won++;
             }
@@ -93,14 +98,17 @@ public class Main {
             {
                 System.out.println("Congratulations, you've won.");
                 total += player.getAmount()*2;
+                System.out.println();
                 System.out.println("You currently have: $"+total);
                 games_won++;
             }
             else
             {
                 System.out.println("Sorry, you've lost this bet.");
+                System.out.println();
                 total -= player.getAmount();
                 System.out.println("You currently have: $"+total);
+                System.out.println();
                 games_lost++;
             }
 
